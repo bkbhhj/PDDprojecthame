@@ -13,7 +13,6 @@ class CustomTableTableViewCell: UITableViewCell {
     @IBOutlet weak var namePDDlabel: UILabel!
     
     
-    let b = 12
     
     
 

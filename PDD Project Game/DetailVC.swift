@@ -9,7 +9,6 @@ import UIKit
 
 class DetailVC: UIViewController {
 
-let a = 12
     
 
 
