@@ -16,6 +16,9 @@ let pddName = ["Предупреждающие знаки",
                "Информационные знаки",
                "Информационные знаки",
                "Знаки сервиса" ]
+   
+    var roadSign: [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,9 +35,18 @@ let pddName = ["Предупреждающие знаки",
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
     }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailVC {
+                vc.selectedTopic = pddName[indexPath.row]
+                navigationController?.pushViewController(vc, animated: true)
+        
+            }
+    
+    }
+
+
+
+
 }
-
-
-
 
 

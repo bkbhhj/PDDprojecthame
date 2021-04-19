@@ -9,8 +9,16 @@ import UIKit
 
 class DetailVC: UIViewController {
 
+    @IBOutlet var nameRoadSignLabel: UILabel!
     
-
-
-
+    @IBOutlet var buttomOne: UIButton!
+    @IBOutlet var buttonTwo: UIButton!
+    @IBOutlet var buttonThree: UIButton!
+    var selectedTopic: String?
+    override func viewDidLoad() {
+        buttomOne.layer.borderWidth = 1
+        buttonTwo.layer.borderWidth = 1
+        buttonThree.layer.borderWidth = 1
+        title = selectedTopic
+    }
 }
