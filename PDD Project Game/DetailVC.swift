@@ -10,6 +10,7 @@ import UIKit
 class DetailVC: UIViewController {
 
     @IBOutlet var nameRoadSignLabel: UILabel!
+    var arraySign = [String]()
     
     @IBOutlet var buttomOne: UIButton!
     @IBOutlet var buttonTwo: UIButton!
@@ -20,5 +21,7 @@ class DetailVC: UIViewController {
         buttonTwo.layer.borderWidth = 1
         buttonThree.layer.borderWidth = 1
         title = selectedTopic
+        firstSign()
     }
+   
 }
