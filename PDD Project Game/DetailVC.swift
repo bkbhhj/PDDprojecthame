@@ -22,6 +22,9 @@ class DetailVC: UIViewController {
         buttonThree.layer.borderWidth = 1
         title = selectedTopic
         firstSign()
+        secondSign ()
+        thirdSign ()
+        fourth ()
     }
    
 }
