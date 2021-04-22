@@ -132,7 +132,7 @@
                         <outlet property="buttomOne" destination="N96-na-Kcf" id="Vm2-6c-mGL"/>
                         <outlet property="buttonThree" destination="YMt-bE-JIA" id="ne0-iB-eR8"/>
                         <outlet property="buttonTwo" destination="v2s-AL-Elq" id="7Fq-t3-Hx2"/>
-                        <outlet property="nameRoadSignLabel" destination="Ooq-xs-eM1" id="bGl-gJ-MXD"/>
+                        <outlet property="nameRoadSignLabel" destination="Ooq-xs-eM1" id="gw1-AS-G7t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wUg-Sr-iM1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

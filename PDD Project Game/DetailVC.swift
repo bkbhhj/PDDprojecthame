@@ -25,6 +25,16 @@ class DetailVC: UIViewController {
         secondSign ()
         thirdSign ()
         fourth ()
+        fiveth()
+        sixth()
+        seventh()
+        eighth()
+        guard let a = arraySign.randomElement() else {return}
+        nameRoadSignLabel.text = """
+            Выберите знак
+            \(a)
+           """
     }
-   
+    
+
 }
