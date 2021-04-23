@@ -88,6 +88,9 @@
                                     <constraint firstAttribute="width" secondItem="N96-na-Kcf" secondAttribute="height" multiplier="1:1" id="W6c-Fb-R07"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="wcE-iF-SFe" eventType="touchUpInside" id="I3i-fc-xoS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YMt-bE-JIA">
                                 <rect key="frame" x="122" y="558" width="170" height="170"/>
@@ -96,6 +99,9 @@
                                     <constraint firstAttribute="width" secondItem="YMt-bE-JIA" secondAttribute="height" multiplier="1:1" id="RYK-MG-2rq"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="wcE-iF-SFe" eventType="touchUpInside" id="D1L-TB-szU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2s-AL-Elq">
                                 <rect key="frame" x="122" y="358" width="170" height="170"/>
@@ -104,6 +110,9 @@
                                     <constraint firstAttribute="width" secondItem="v2s-AL-Elq" secondAttribute="height" multiplier="1:1" id="99U-Vr-CGM"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actionButton:" destination="wcE-iF-SFe" eventType="touchUpInside" id="g8d-27-5pt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ibh-wp-Twt"/>
