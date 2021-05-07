@@ -17,9 +17,7 @@ class DetailVC: UIViewController {
     @IBOutlet var buttonThree: UIButton!
     var selectedTopic: String?
     override func viewDidLoad() {
-        buttomOne.layer.borderWidth = 1
-        buttonTwo.layer.borderWidth = 1
-        buttonThree.layer.borderWidth = 1
+
         title = selectedTopic
         firstSign()
         secondSign ()
@@ -73,7 +71,7 @@ askQuestion()
         }
 
         
-   let ac = UIAlertController(title: title, message: "Красава. Десяточка.", preferredStyle: .alert)
+   let ac = UIAlertController(title: title, message: "Красава!", preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
         present(ac, animated: true)
         }
